@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790240096088,
+  "lastUpdate": 1793031055105,
   "repoUrl": "https://github.com/azaj01/repomix",
   "entries": {
     "Repomix Performance": [
@@ -225,6 +225,44 @@ window.BENCHMARK_DATA = {
             "range": "±13",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1218ms, Q3: 1231ms\nAll times: 1200, 1201, 1207, 1210, 1211, 1218, 1219, 1221, 1221, 1223, 1223, 1224, 1225, 1225, 1228, 1231, 1233, 1236, 1236, 1269ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a835271f41701245ee24b3c8ba162c5abb3d6f12",
+          "message": "Merge pull request #1912 from plox-sumit/fix/css-url-not-a-comment\n\nfix(core): Keep unquoted URLs when removing CSS comments",
+          "timestamp": "2026-10-26T00:46:24+09:00",
+          "tree_id": "fd64bb51e822dc842be1218667d7a55f4a3bd732",
+          "url": "https://github.com/azaj01/repomix/commit/a835271f41701245ee24b3c8ba162c5abb3d6f12"
+        },
+        "date": 1793031054499,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 992,
+            "range": "±17",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 983ms, Q3: 1000ms\nAll times: 964, 978, 979, 982, 983, 983, 984, 989, 990, 991, 992, 995, 996, 998, 999, 1000, 1001, 1007, 1009, 1016ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1393,
+            "range": "±35",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1381ms, Q3: 1416ms\nAll times: 1364, 1374, 1376, 1379, 1381, 1381, 1382, 1388, 1391, 1392, 1393, 1407, 1409, 1409, 1411, 1416, 1417, 1423, 1444, 1484ms"
           }
         ]
       }
